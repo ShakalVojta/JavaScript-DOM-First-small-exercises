@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+form {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    border: 2px solid black;
+    padding: 2rem;
+    background-color: rgb(34, 182, 182);
+}
+
+input {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 1rem;
+    height: 2rem;
+    border: none;
+    border-radius: 4%;
+}
+
+label {
+    font-weight: 900;
+   margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 8px;
+    width: 70%;
+    font-size: 1rem;
+    cursor: pointer;
+}
